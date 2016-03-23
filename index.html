@@ -6,52 +6,90 @@
 		<meta charset="utf-8">
 		<title>政大藝文中心節目簡介-2012春季</title>
 		<style type="text/css">
+
+			/*Header區*/		
+			
+			header{
+				display: flex;
+				justify-content: space-between;
+				align-items: flex-end;
+
+			}
+
+			body{
+				min-width:600px;
+				max-width: 1000px;
+				margin: auto; 
+			}
+
+			#top-hyper-link {
+				text-align: center;
+
+				float: right;
+				bottom: 3px;
+				color: black;
+				font-size: 0.5em;
+				font-style: normal;
+			}
+
+			header :link {
+				color: black;
+				font-style: normal;
+				text-decoration: none;
+			}
+			#top-hyper-link>div{
+				margin-bottom: 4px;
+				margin-top: 4px;
+			}
+
+			#top-hyper-link>div:first-child{
+				border-bottom: 1px dotted grey ; 
+
+			}
+
+			/* ----------nav區-------- */
+
+			#lower-nav {
+				display: flex;
+				justify-content: space-between;
+			}
+
 		
-		/*
-		body {
-			font-size: 0.5em;
-		}
 
-		aside {
-			background-color:  #c6ffb3;
-		}
 
-		#lower-nav {
-			color: green;
-		}
-
-		#article1 {
-			background-color:#b3ecff;
-		}
-
-		#main01 {
-			float: left;
-		}
+		
 		
 
 		</style>
 	</head>
 
 	<header>
-		<a href="http://artist.nccu.edu.tw/2012spring/index.html"><img src="http://artist.nccu.edu.tw/2012spring/images/top_logo_01.gif" alt="logo1">
+		<a href="http://artist.nccu.edu.tw/2012spring/index.html">
+		<img src="http://artist.nccu.edu.tw/2012spring/images/top_logo_01.gif" alt="logo1">
 		<img src="http://artist.nccu.edu.tw/2012spring/images/top_logo_02.gif" alt="top_logo"></a>	
-		<a href="http://www.nccu.edu.tw/">政治大學</a>
-		‧
-		<a href="http://osa.nccu.edu.tw/tw/component/content/article?id=667&Itemid=273">學務處藝文中心</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/aboutus.html">中心簡介</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/contact.html">聯絡我們</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/index.html">首頁</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/news.html">最新消息</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/visit.html">參觀資訊</a>
-		‧
-		<a href="http://artist.nccu.edu.tw/2012spring/map.html">網站地圖</a>
-		<a href="https://www.facebook.com/nccuarts"><img src="http://artist.nccu.edu.tw/2012spring/images/icon_Facebook.jpg" alt="icon_facebook" width="20"></a>
-		<a href="http://blog.roodo.com/inccuart"><img src="http://artist.nccu.edu.tw/2012spring/images/icon_rodoo.gif" alt="icon_rodoo" width="20"></a>
+		
+		<div id="top-hyper-link">
+			<div>
+				<a href="http://www.nccu.edu.tw/">政治大學</a>		‧
+				<a href="http://osa.nccu.edu.tw/tw/component/content/article?id=667&Itemid=273">學務處藝文中心</a>
+				‧
+				<a href="http://artist.nccu.edu.tw/2012spring/aboutus.html">中心簡介</a>
+				‧
+				<a href="http://artist.nccu.edu.tw/2012spring/contact.html">聯絡我們</a>
+				‧
+			</div>
+			<div>
+				<a href="http://artist.nccu.edu.tw/2012spring/index.html">首頁</a>
+				‧
+				<a href="http://artist.nccu.edu.tw/2012spring/news.html">最新消息</a>
+				‧
+				<a href="http://artist.nccu.edu.tw/2012spring/visit.html">參觀資訊</a>
+				‧
+				<a href="http://artist.nccu.edu.tw/2012spring/map.html">網站地圖</a>
+				<a href="https://www.facebook.com/nccuarts"><img src="http://artist.nccu.edu.tw/2012spring/images/icon_Facebook.jpg" alt="icon_facebook" width="18"></a>
+				<a href="http://blog.roodo.com/inccuart"><img src="http://artist.nccu.edu.tw/2012spring/images/icon_rodoo.gif" alt="icon_rodoo" width="18"></a>
+			</div>
+		</div>
 	</header>
 
 	<nav>
@@ -65,22 +103,28 @@
 			<a href="http://artist.nccu.edu.tw/2012spring/movies.html"><img src="http://artist.nccu.edu.tw/2012spring/images/nav_movies.gif" alt="nav_movies"></a>	
 			<a href="http://artist.nccu.edu.tw/2012spring/talks.html"><img src="http://artist.nccu.edu.tw/2012spring/images/nav_talks.gif" alt="nav_talks"></a>	
 			<img src="http://artist.nccu.edu.tw/2012spring/images/nav_empty.gif" alt="nav_empty">
+			<img src="http://artist.nccu.edu.tw/2012spring/images/nav_end.gif" alt="nav_end">
 		</div>
 
 		<div id="lower-nav">
-			<a href="http://artist.nccu.edu.tw/2012spring/air.html"><img src="http://artist.nccu.edu.tw/2012spring/images/air/title_air2.gif" alt="title2"></a>
-			<p>
-				<a href="http://artist.nccu.edu.tw/2012spring/air.html">節目總覽│序言<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_concert.html">駐校音樂會<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_opening.html">開幕暨專題座談<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_exhibit.html">李泰祥影音文件展<br></a>				
-			</p>
-			<p>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_workshop.html">音樂工作坊<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_corner.html">轉角音樂會<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_mv.html">MV 比賽<br></a>
-				<a href="http://artist.nccu.edu.tw/2012spring/air_quiz.html">每日線上有獎徵答<br></a>				
-			</p>
+			<div id="left">
+				<a href="http://artist.nccu.edu.tw/2012spring/air.html"><img src="http://artist.nccu.edu.tw/2012spring/images/air/title_air2.gif" alt="title2"></a>
+			</div>
+
+			<div id="right">
+				<p>
+					<a href="http://artist.nccu.edu.tw/2012spring/air.html">節目總覽│序言<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_concert.html">駐校音樂會<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_opening.html">開幕暨專題座談<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_exhibit.html">李泰祥影音文件展<br></a>				
+				</p>
+				<p>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_workshop.html">音樂工作坊<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_corner.html">轉角音樂會<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_mv.html">MV 比賽<br></a>
+					<a href="http://artist.nccu.edu.tw/2012spring/air_quiz.html">每日線上有獎徵答<br></a>				
+				</p>
+			</div>
 		</div>
 
 
